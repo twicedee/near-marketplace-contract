@@ -1,0 +1,12 @@
+
+yarn init v1.22.22
+question name (near-marketplace-contract):
+question version (1.0.0):
+question description: marketplace
+question entry point (index.js):
+question repository url:
+question author: Desy
+question license (MIT):
+question private:
+success Saved package.json
+Done in 48.80s.

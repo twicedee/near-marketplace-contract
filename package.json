@@ -1,0 +1,11 @@
+{
+  "name": "near-marketplace-contract",
+  "version": "1.0.0",
+  "description": "marketplace",
+  "main": "index.js",
+  "author": "Desy",
+  "license": "MIT",
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
