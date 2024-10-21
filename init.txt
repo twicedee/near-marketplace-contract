@@ -10,3 +10,16 @@ question license (MIT):
 question private:
 success Saved package.json
 Done in 48.80s.
+
+Creating account cardealership.my_acount.testnet using my_acount.testnet
+Transaction Id 9THzVY8HX6p6px32GxZLmBeN5QA9H9xRYB1nmDusiVmr
+Open the explorer for more info: https://testnet.nearblocks.io/txns/9THzVY8HX6p6px32GxZLmBeN5QA9H9xRYB1nmDusiVmr
+Storing credentials for account: cardealership.my_acount.testnet (network: testnet)
+Saving key to '~/.near-credentials/testnet/cardealership.my_acount.testnet.json'
+
+near deploy cardealership.my_acount.testnet build\release\near-marketplace-contract.wasm
+
+near view cardealership.my_acount.testnet getProduct"{\"id\": \"0\"}"
+near call cardealership.my_acount.testnet buyProduct "{\"productId\": \"0\"}" --depositYocto=1000000000000000000000000 --accountId=buyeraccount.my_acount.testnet 
+
+near call cardealership.my_acount.testnet buyProduct '{"productId": "0"}' --depositYocto=1000000000000000000000000 --accountId=buyeraccount.my_acount.testnet

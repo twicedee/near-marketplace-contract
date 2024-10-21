@@ -1,1 +1,2 @@
-//<reference types="near-sdk-as/assembly/as_types" />
+///<reference types="near-sdk-as/assembly/as_types" />
+
